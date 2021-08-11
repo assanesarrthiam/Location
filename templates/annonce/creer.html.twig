@@ -1,0 +1,25 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Creer un article!
+{% endblock %}
+
+{% block body %}
+	<h1 style="text-align:center">Les hôtels les plus réservés à Tarifa le mois dernier</h1>
+<MARQUEE BGCOLOR="red">  FORMULAIRE A REMPLIR POUR VOIR LES DERNIERES PUBLICATIONS ET LES DESTINATIONS QUE SENEGAL DECOUVERTE VOUS PROPOSE </MARQUEE>
+	{{ form_start(formAnnonce)}}
+
+	{{ form_row(formAnnonce.title, {'attr': {'Placeholder': ""}})}}
+	{{ form_row(formAnnonce.introduction, {'attr': {'Placeholder': ""}})}}
+	{{ form_row(formAnnonce.desription, {'attr': {'Placeholder': ""}})}}
+	{{ form_row(formAnnonce.price, {'attr': {'Placeholder': ""}})}}
+	{{ form_row(formAnnonce.address, {'attr': {'Placeholder': ""}})}}
+	{{ form_row(formAnnonce.coverImage, {'attr': {'Placeholder': "Image l'url"}})}}
+	{{ form_row(formAnnonce.rooms, {'attr': {'Placeholder': "Titre de l'article"}})}}
+	{{ form_row(formAnnonce.isAvailable)}} #}
+
+
+	<button type="sumbit" class="btn btn-success"> 
+		Ajouter une Annonce</button>
+	{{ form_end(formAnnonce)}}
+
+{% endblock %}

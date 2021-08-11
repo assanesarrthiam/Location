@@ -1,0 +1,71 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Page d'accueil!
+{% endblock %}
+
+{% block body %}
+
+	<div class="container mt-5">
+
+		<div class="jumbotron">
+			<h1 class="display-3">BIENVENUE CHEZ PEACE HOTEL!</h1>
+			<p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+			<hr class="my-4">
+			<p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+			<p class="lead">
+				<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+			</p>
+		</div>
+		{# Fin Jumbotron #}
+		<h2 class="my-5">Les dernieres annonces...</h2>
+		<div
+			class="row">
+			{# card commencer #}
+			{% for anounce in annonces %}
+
+				<div class="col-md-4">
+					<div class="card mb-3">
+						<img class="js-lazy-image bui-card__image" data-src="https://cf.bstatic.com/static/img/theme-index/carousel_320x240/bg_glamping/6e181b9e942c160f4605239be7ddc1728cbcc4c8.jpg " alt="" data-lazy="1" src="https://cf.bstatic.com/static/img/theme-index/carousel_320x240/bg_glamping/6e181b9e942c160f4605239be7ddc1728cbcc4c8.jpg" width="350px" height="350">
+						<p class="card-header text-center">
+							{% if anounce.rooms < 2 %}
+								Une chambre
+							{% else %}
+								{{ anounce.rooms}}
+								Chambres
+							{% endif %}
+							à
+							{{anounce.price | number_format(0, ',', ' ')}}
+							Fcfa / Mois
+							<br>
+
+							<small>
+								{{anounce.comments| length}}
+								commentaires
+							</small>
+						</p>
+						<img src="{{ asset ('uploads/cover_images/' ~ anounce.coverImage ) }}" alt="image" style="height:350; width: 350px;;">
+
+						<div class="card-body">
+							<h4 class="card-header">{{anounce.title}}</h4>
+							<p class="card-text">{{anounce.introduction}}</p>
+							<div class="card-body">
+								<p class="card-text">{{anounce.desription}}</p>
+								<p></p>
+							</div>
+							<div
+								class="card-body">{# <a href="{{path('annonce_show',{id:anounce.id})}}" class="card-link btn btn-primary">details</a> #}
+							</div>
+							<div class="card-footer text-muted text-center">
+								<i class="fas fa-map-marker-alt"></i>
+								<br>
+								{{anounce.address}}
+								{# <small>{{anounce.createdAt }}</small> #}
+							</div>
+						</div>
+					</div>
+				</div>
+			{% endfor %}
+			{# card end #}
+		</div>
+		{# container end #}
+	{% endblock %}

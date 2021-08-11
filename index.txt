@@ -1,0 +1,138 @@
+<div class="carte mb-3" style="width: 23rem; margin-left: 60px">
+                <h3 class="card-header">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">En-tête de carte</font>
+                    </font>
+                </h3>
+                <div class="corps-carte">
+                    <h5 class="card-title">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Traitement spécial des titres</font>
+                        </font>
+                    </h5>
+                    <h6 class="card-subtitle text-muted">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Sous-titre de la carte de support</font>
+                        </font>
+                    </h6>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="d-block user-select-none" width="100%" height="200" aria-label="Espace réservé  : limite de l'image" focusable="false" role="img" preserveaspectratio="xMidYMid slice" viewbox="0 0 318 180" style="font-size:1.125rem;text-anchor:middle">
+                    <rect width="100%" height="100%" fill="#868e96"></rect>
+                    <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Capuchon de l'image</text>
+                </svg>
+                <div class="corps-carte">
+                    <p class="card-text">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Quelques exemples de texte rapides pour s'appuyer sur le titre de la carte et constituer l'essentiel du contenu de la carte.</font>
+                        </font>
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+        <!--fin div 1 -->
+
+        <!--div 2 -->
+
+        <div class="row" style="margin-lef:60px; margin-top:50px">
+            <div class="carte mb-3" style="width: 23rem; margin-left: 60px">
+                <h3 class="card-header">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">En-tête de carte</font>
+                    </font>
+                </h3>
+                <div class="corps-carte">
+                    <h5 class="card-title">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Traitement spécial des titres</font>
+                        </font>
+                    </h5>
+                    <h6 class="card-subtitle text-muted">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Sous-titre de la carte de support</font>
+                        </font>
+                    </h6>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="d-block user-select-none" width="100%" height="200" aria-label="Espace réservé  : limite de l'image" focusable="false" role="img" preserveaspectratio="xMidYMid slice" viewbox="0 0 318 180" style="font-size:1.125rem;text-anchor:middle">
+                    <rect width="100%" height="100%" fill="#868e96"></rect>
+                    <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Capuchon de l'image</text>
+                </svg>
+                <div class="corps-carte">
+                    <p class="card-text">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Quelques exemples de texte rapides pour s'appuyer sur le titre de la carte et constituer l'essentiel du contenu de la carte.</font>
+                        </font>
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="carte mb-3" style="width: 23rem; margin-left: 60px">
+                <h3 class="card-header">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">En-tête de carte</font>
+                    </font>
+                </h3>
+                <div class="corps-carte">
+                    <h5 class="card-title">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Traitement spécial des titres</font>
+                        </font>
+                    </h5>
+                    <h6 class="card-subtitle text-muted">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Sous-titre de la carte de support</font>
+                        </font>
+                    </h6>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="d-block user-select-none" width="100%" height="200" aria-label="Espace réservé  : limite de l'image" focusable="false" role="img" preserveaspectratio="xMidYMid slice" viewbox="0 0 318 180" style="font-size:1.125rem;text-anchor:middle">
+                    <rect width="100%" height="100%" fill="#868e96"></rect>
+                    <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Capuchon de l'image</text>
+                </svg>
+                <div class="corps-carte">
+                    <p class="card-text">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Quelques exemples de texte rapides pour s'appuyer sur le titre de la carte et constituer l'essentiel du contenu de la carte.</font>
+                        </font>
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="carte mb-3" style="width: 23rem; margin-left: 60px">
+                <h3 class="card-header">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">En-tête de carte</font>
+                    </font>
+                </h3>
+                <div class="corps-carte">
+                    <h5 class="card-title">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Traitement spécial des titres</font>
+                        </font>
+                    </h5>
+                    <h6 class="card-subtitle text-muted">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Sous-titre de la carte de support</font>
+                        </font>
+                    </h6>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="d-block user-select-none" width="100%" height="200" aria-label="Espace réservé  : limite de l'image" focusable="false" role="img" preserveaspectratio="xMidYMid slice" viewbox="0 0 318 180" style="font-size:1.125rem;text-anchor:middle">
+                    <rect width="100%" height="100%" fill="#868e96"></rect>
+                    <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Capuchon de l'image</text>
+                </svg>
+                <div class="corps-carte">
+                    <p class="card-text">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Quelques exemples de texte rapides pour s'appuyer sur le titre de la carte et constituer l'essentiel du contenu de la carte.</font>
+                        </font>
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    {% endblock %}
